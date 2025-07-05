@@ -20,16 +20,8 @@ It allows the user to authenticate on any device and temporarily grant network-w
 - Python 3.7+
 - Pangolin 1.4.0+
 - A Pangolin API key with resource rule permissions
-- A `.env` file with your configuration (see below)
+- A `.env` file with your configuration (see example.env)
 - A `.json` file to track log position and IP rules (see auth-state.json)
-
-API_URL=http://your-pangolin-domain/v1
-
-API_KEY=your_api_token
-
-LOG_PATH=/path/to/your/logfile.log
-
-STATE_PATH=/path/to/store/script_state.json
 
 ---
 
